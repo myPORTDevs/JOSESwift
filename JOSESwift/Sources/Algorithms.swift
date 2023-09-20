@@ -61,7 +61,7 @@ public enum KeyManagementAlgorithm: String, CaseIterable {
     /// Key encryption using RSAES-PKCS1-v1_5
     case RSA1_5 = "RSA1_5"
     /// Key encryption using RSAES OAEP using SHA-1 and MGF1 with SHA-1
-    case RSAOAEP = "RSA-OAEP"
+    case RSAOAEP = "http://www.w3.org/2001/04/xmlenc#rsa-oaep"
     /// Key encryption using RSAES OAEP using SHA-256 and MGF1 with SHA-256
     case RSAOAEP256 = "RSA-OAEP-256"
     // Key wrapping using AES Key Wrap with default initial value using 128-bit key
